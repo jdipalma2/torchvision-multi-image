@@ -13,7 +13,7 @@ import numbers
 from collections.abc import Sequence, Iterable
 import warnings
 
-import functional as F
+from src.tvmi import functional as F
 
 __all__ = ["Compose", "ToTensor", "PILToTensor", "ConvertImageDtype", "ToPILImage", "Normalize", "Resize", "Scale",
            "CenterCrop", "Pad", "Lambda", "RandomApply", "RandomChoice", "RandomOrder", "RandomCrop",
