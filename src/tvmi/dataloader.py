@@ -7,7 +7,7 @@ from typing import Callable, List, Tuple
 import torch
 import torch.utils.data as data
 from PIL import Image
-from torchvision import transforms
+from tvmi import transforms
 
 Image.MAX_IMAGE_PIXELS = None
 

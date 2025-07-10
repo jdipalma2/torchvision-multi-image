@@ -15,8 +15,8 @@ try:
 except ImportError:
     accimage = None
 
-import functional_pil as F_pil
-import functional_tensor as F_t
+import tvmi.functional_pil as F_pil
+import tvmi.functional_tensor as F_t
 
 
 def _is_pil_image(img):
